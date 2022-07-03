@@ -16,12 +16,12 @@ export default function Music() {
     <div>
       <div className="grid place-items-center py-5">
         <h1 className="text-5xl font-bold text-black">Music NFT Gallery</h1>
-        <div className="bg-blue-500 h-1 w-36 my-2 rounded-lg"></div>
+        <div className="bg-blue-500 h-1 w-36 my-2  "></div>
       </div>
 
       <div className="flex flex-wrap justify-around w-full px-16">
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon1} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -35,7 +35,7 @@ export default function Music() {
                 <div>
                   <div className=" flex overflow-x-hidden mx-4 md:mx-8 h-screen overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none items-center justify-center w-screen">
                     <div className="relative my-6 mx-auto w-screen">
-                      <div className="ml-[25rem] border-0 rounded-lg shadow-lg relative flex flex-col w-128 bg-gray-800 outline-none focus:outline-none ">
+                      <div className="ml-[25rem] border-0   shadow-lg relative flex flex-col w-128 bg-gray-800 outline-none focus:outline-none ">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div>
                             <div className="text-2xl font-base tracking-wide cursor-pointer text-white">
@@ -100,7 +100,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon2} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -115,7 +115,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon3} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -130,7 +130,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon4} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -145,7 +145,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon5} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -160,7 +160,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon6} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
@@ -175,7 +175,7 @@ export default function Music() {
         </div>
 
         <div className="m-8">
-          <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon7} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
               <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />

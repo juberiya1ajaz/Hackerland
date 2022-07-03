@@ -13,7 +13,7 @@ export default function MyNFT() {
             <div className="flex flex-wrap justify-around w-full px-16">
 
                 <div className="m-8">
-                    <div className="border-4 bg-gray-200 border-secondary rounded-lg">
+                    <div className="border-r-8 border-b-8 rounded-xl bg-gray-200 border-black ">
                         <img src={Icon1} height="300" width="300" alt="TicTbeachacToe" />
                         <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
                             <button className='text-white py-2 px-8 rounded-md text-xl md:text-2xl bg-blue-500' >Resell this NFT</button>
