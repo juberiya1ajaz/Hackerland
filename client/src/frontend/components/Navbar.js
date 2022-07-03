@@ -94,6 +94,10 @@ export default function Navbar() {
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">My NFT</span>
                         </Link>
 
+                        <Link to="/upload-nft">
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Upload NFT</span>
+                        </Link>
+
                         {account ? (
                             <div
                                 href={`https://etherscan.io/address/${account}`}

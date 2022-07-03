@@ -5,6 +5,7 @@ import Music from '../pages/Music';
 import Chat from '../pages/Chat';
 import Chatroom from '../pages/Chatroom';
 import MyNFT from '../pages/MyNFT';
+import UploadNFT from '../pages/UploadNFT';
 
 function Main() {
     return (
@@ -16,6 +17,7 @@ function Main() {
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/chatroom" element={<Chatroom />} />
                 <Route path="/my-nft" element={<MyNFT />} />
+                <Route path="/upload-nft" element={<UploadNFT />} />
             </Routes>
         </BrowserRouter>
     );
