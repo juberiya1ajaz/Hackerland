@@ -8,12 +8,13 @@
 
 - React Js: For frontend
 - Solidity: For building a smart contract
-- Hedera: For building secure chatrooms and deploying a smart contract
+- IPFS: Metadata storage
+- Hedera: For building secure chatrooms
 - Tailwind: For styling and animations
 
 ## 🔐 Best Blockchain Project Using Hedera
 
-We are using Hedera’s testnet to **build secure chatrooms and deploy smart contracts** for our app. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications
+We are using Hedera’s testnet to **build secure chatrooms** for our app. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications
 
 ## 🛠 Best Hardware Hack Sponsored by Digi-Key
 

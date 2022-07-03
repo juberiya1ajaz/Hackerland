@@ -2,7 +2,7 @@ import Main from "./container/Main";
 
 function App() {
   return (
-    <div>
+    <div className="font-montserrat">
       <Main />
     </div>
   );
