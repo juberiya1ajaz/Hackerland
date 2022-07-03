@@ -7,10 +7,14 @@ import Icon4 from "../assets/icon4.png";
 import Icon5 from "../assets/icon5.jpg";
 import Icon6 from "../assets/icon6.png";
 import Icon7 from "../assets/icon7.png";
-import { FaPlayCircle } from "react-icons/fa";
+import piano from "../assets/audio/ambient-piano-amp-strings-10711.mp3"
+import { FaPlayCircle, FaPauseCircle } from "react-icons/fa";
 
 export default function Music() {
+
   const [showNavbar, setShowNavbar] = useState(false);
+  const audio = new Audio(piano);
+  audio.loop = true;
 
   return (
     <div>
@@ -21,10 +25,13 @@ export default function Music() {
 
       <div className="flex flex-wrap justify-around w-full px-16">
         <div className="m-8">
-          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
+          <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black">
             <img src={Icon1} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -103,7 +110,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon2} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -118,7 +128,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon3} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -133,7 +146,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon4} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -148,7 +164,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon5} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -163,7 +182,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon6} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
@@ -178,7 +200,10 @@ export default function Music() {
           <div className="border-2 border-r-8 border-b-8 rounded-xl bg-gray-200 border-black  ">
             <img src={Icon7} height="300" width="300" alt="TicTbeachacToe" />
             <div className="grid place-items-center mx-1 text-2xl font-semibold text-gray-900 py-2">
-              <FaPlayCircle className="cursor-pointer mb-3 w-10 h-10" />
+              <div className="flex flex-row">
+                <FaPlayCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => { audio.loop = true; audio.play(); }} />
+                <FaPauseCircle className="cursor-pointer mb-3 mx-3 w-10 h-10" onClick={() => (audio.loop = false)} />
+              </div>
               <button
                 className="text-white py-2 px-8 rounded-md text-xl md:text-xl bg-blue-500"
                 onClick={() => setShowNavbar(true)}
