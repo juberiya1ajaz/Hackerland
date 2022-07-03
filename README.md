@@ -39,7 +39,7 @@ Utilizing the backend, we got it all to work in the end.
 - We are pleased that we managed our time and to complete our task swiftly and on time.
 
 ## 📖 What we learned
-- We are grateful that we managed our time to complete the task swiftly and on time.
+- We are grateful that we managed our time and completed the task swiftly on time.
 - Building a secure payment method using Hedera's testnet.
 - Collaboration with other developers.
 
