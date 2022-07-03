@@ -10,5 +10,9 @@
 }
 
 body {
-  background-color: #1B2431;
+  /* background-color: #1B2431; */
+  background-image: url("bg.svg");
+
+  background-repeat: repeat;
+  background-size: auto;
 }
