@@ -15,7 +15,7 @@ export default function Home() {
           </p>
 
           <Link to="/music">
-            <button className="text-white bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl">
+            <button className="text-white bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl hover:bg-purple-800">
               Listen Music
             </button>
           </Link>
