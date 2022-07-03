@@ -1,4 +1,4 @@
-# APP NAME
+# GRooVe with NFTs
 
 ## 💡 Inspiration
 
@@ -33,7 +33,7 @@ We are using Raspberry Pi 4 for deploying our web app so that everyone can acces
 
 - Collaboration with other developers.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for GRooVe with NFTs
 
 - Building a mobile app
 - Deploying the web app.

@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className=''>
           <h1 className='text-3xl md:text-6xl'>What else do we have</h1>
-          <p className='text-xl md:text-2xl py-4 tracking-wider'>APP NAME is a web app where you can:
+          <p className='text-xl md:text-2xl py-4 tracking-wider'>GRooVe with NFTs is a web app where you can:
           </p>
           <ul className="text-xl">
             <li className="list-disc">Buy other artists NFT.</li>
