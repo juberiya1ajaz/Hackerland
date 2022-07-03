@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="md:mx-28 mx-4 text-white">
       <div className="md:grid md:grid-cols-2 items-center py-10">
-        <div className=" p-10 border-2 border-r-8 border-b-8 rounded-xl bg-yellow-200 text-black font-bold">
+        <div className=" p-10 border-2 border-r-8 border-b-8 rounded-xl bg-yellow-200 text-black border-black font-bold">
           <h1 className="text-3xl md:text-6xl">Who we are</h1>
           <p className="text-xl md:text-2xl py-4 tracking-wider">
             Aout the app
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
           <img src={FeatImg} alt="img" width="300" height="300" />
         </div>
-        <div className=" p-10 border-2 border-r-8 border-b-8 rounded-xl bg-green-300 font-bold text-black">
+        <div className=" p-10 border-2 border-r-8 border-b-8 rounded-xl bg-green-300 font-bold border-black text-black">
           <h1 className="text-3xl md:text-6xl">What else do we have</h1>
           <p className="text-xl md:text-2xl py-4 tracking-wider">
             GRooVe with NFTs is a web app where you can:
